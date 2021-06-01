@@ -1,0 +1,153 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Survey Form</title>
+  </head>
+  <body>
+  	<section class="container">
+
+  		<div class="header-style navbar">
+		<h1 id="title">
+			PheonixTechMarket Survey Form
+		</h1>
+		<p id="description">
+			We are ever greatful for your time.
+		</p>
+	</div>
+
+	<form action="freecodecamp.org" id="survey-form">
+
+		<label id="name-label">Name</label> <br>
+		<input  id="name" placeholder="Enter your name"type="text" name="name" required="" />
+
+		<br/>
+		<label id="email-label">Email</label> <br>
+		<input id="email" placeholder="Enter your email"type="email" name="email" required="" />
+
+		<br/>
+		<label id="age-label">Age(optional)</label><br>
+		<input placeholder="Please Input your age" type="number" min="10" max="99" name="age" required />
+
+		<br/>
+
+				<label id="number-label">
+			Phone Number
+				</label> <br>
+		<input id="number" placeholder="Please insert contact" type="number" name="number-label" min="0" max="11" required />
+
+
+		
+
+		<br/>
+
+			<p>Which of our services do you love the most?</p>
+		<select id="dropdown" name="services" required>
+
+			<option disabled="" selected="" value="">Choose an option</option>
+			<option>
+				Home Delivery
+			</option>
+				
+			<option>
+				Return Policiy
+			</option>
+				
+			<option>
+				Product Warranty
+			</option>
+
+			<option>
+				Black Friday
+			</option>
+		</select>
+
+		<br/>
+
+		
+
+		<p>Would you recommend Pheonixtechmarket to a friend ?</p>
+
+		
+
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="Definitely">Definitely
+			</label>
+			<br />
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="Maybe">Maybe
+			</label>
+			<br />
+			<label>
+				<input class="input-radio" type="radio" name="user-recommend" value="not-sure">Not sure
+			</label>
+
+			<p>What would you like us to improve in our services ?</p>
+
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer" value="services">Delivery Time
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Packaging of Products
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Shipping Method Options
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Payment Method Options
+			</label>
+			<br />
+
+			<label>
+				<input class="input-checkbox" type="checkbox" name="prefer"  value="services">Return Policy
+			</label>
+
+			<br />
+			<br />
+
+			<p>Any comments or Suggestions, please let us know below</p>
+
+			<textarea id="textarea" name="textarea" placeholder="Write something..." title="Some text in here"></textarea>
+
+			<br />
+			<br />
+			<br />
+
+		
+
+		<button class="btn btn-primary" type="submit" value="Submit" id="submit" title="All set">Submit</button>
+
+	</form>
+
+	<br />
+
+	</section>
+
+<footer id="footer">
+
+	<p>&copy;Copyright, Martinium Developers 2021</p>
+	
+</footer>
+
+ 
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
